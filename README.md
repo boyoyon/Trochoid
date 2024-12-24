@@ -25,7 +25,8 @@
             <img src="images/epitrochoid_2.gif"><br>
             <h4>定点が円周上：cardioid</h4>
             <img src="images/cardioid.gif"><br>
-            <h4>定点が円周上：円の半径比４vs５</h4>
+            <h4>定点が円周上：cardioid。円の半径比 4 vs 5</h4>
+            層が4段、葉っぱが5枚になる<br>
             <img src="images/cardioid_4_5.gif"><br>
             <h4>定点が円の内部</h4>
             <img src="images/epitrochoid_075.gif"><br>
@@ -55,9 +56,10 @@
             軌道に沿った円の回転(1回転) ＋ 軌道の回転(1回転) ＝ 2回転<br>
         </p>
             <img src="images/cycloid_cardioid.gif"><br>
-        <h3>おまけ：円周外のトロコイドを円周に貼り付けるとNTTになる</h3>
+        <h3>おまけ：定点が円の外、直線軌道のトロコイドを丸い軌道に貼り付けるとNTTロゴが出来上がる</h3>
         <p>
             python ntt.py<br>
         </p>
             <img src="images/ntt.gif"><br>
     </body>
+</html>
