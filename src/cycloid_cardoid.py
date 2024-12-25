@@ -126,11 +126,11 @@ for i in range(nDiv+1):
 
     _p0 = cycloid(p0, r, c0, theta)
     P0 = warp(_p0)
-    cv2.circle(screen, P0, THICKNESS * 10, MAGENTA, -1)
+    cv2.circle(screen, P0, THICKNESS * 10, CYAN, -1)
 
     if len(p) > 1:
         P1 = warp(p[-1])
-        cv2.line(screen2, P0, P1, MAGENTA, THICKNESS * 2)
+        cv2.line(screen2, P0, P1, CYAN, THICKNESS * 2)
 
     p.append(_p0)
 
@@ -197,7 +197,7 @@ for i in range(1, nDiv + 1):
 
     for j in range(1, len(P)):
 
-        cv2.line(screen, P[j-1], P[j], MAGENTA, THICKNESS * 2)
+        cv2.line(screen, P[j-1], P[j], CYAN, THICKNESS * 2)
         cv2.line(screen, Q[j-1], Q[j], WHITE, THICKNESS)
 
     c = (pp[-1] + qq[-1]) * 0.5
@@ -215,7 +215,7 @@ for i in range(1, nDiv + 1):
     cv2.circle(screen, C, R, WHITE, THICKNESS)
 
     PP = warp(pp[-1])
-    cv2.circle(screen, PP, THICKNESS * 10, MAGENTA, -1)
+    cv2.circle(screen, PP, THICKNESS * 10, CYAN, -1)
 
     cv2.imshow('screen', screen + screen2)
     
