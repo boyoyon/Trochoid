@@ -63,5 +63,10 @@
             <img src="images/ntt.gif"><br>
         <h3>ついでに。トロコイドではないけど、「転がる」つながりでルーローの三角形</h3>
         <img src="images/ReuleauxTriangle.gif"><br />
+        <h3>その他</h3>
+        <p>
+            spirographでフラクタル図形を描画。どうやっているんだろう･･･<br>
+            <a href="https://benice-equation.blogspot.com/search/label/Spirograph">https://benice-equation.blogspot.com/search/label/Spirograph</a>
+        </p>
     </body>
 </html>
